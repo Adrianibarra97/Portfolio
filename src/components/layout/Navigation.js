@@ -3,8 +3,11 @@ import { NavLink } from 'react-router-dom';
 
 export const Navigation = () => {
     return (
-        <header>
-            <h1>Adrian Ibarra FullStack Developer</h1>
+        <header className = "header">
+            <div className = "logo">
+                <span>@</span>
+                <h3>Adrian Ibarra FullStack Developer</h3>
+            </div>
             <nav>
                 <ul>
                     <li>
